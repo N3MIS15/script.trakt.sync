@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.trakt.sync" name="Trakt Sync" version="0.0.1" provider-name="David Gray (N3MIS15)">
+  <requires>
+    <import addon="xbmc.python" version="2.1"/>
+    <import addon="xbmc.json"   version="6.0.0"/>
+    <import addon="xbmc.addon"  version="12.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language></language>
+    <summary lang="en">Synchronize XBMC/trakt.tv libraries</summary>
+    <description lang="en">
+      An easy way to synchronize your XBMC library with trakt.tv. Update your trakt.tv library direct from XBMC or recover your XBMC watched status from trakt.tv.
+    </description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>

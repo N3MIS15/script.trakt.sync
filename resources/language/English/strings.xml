@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+    <!-- trakt.tv Settings -->
+    <string id="1010">trakt.tv</string>
+    <string id="1011">Username</string>
+    <string id="1012">Password</string>
+    <string id="1013">API Key</string>
+
+    <!-- Movie Settings -->
+    <string id="1020">Movies</string>
+    <string id="1021">Add missing movies to trakt.tv</string>
+    <string id="1022">Update missing movie playcounts on trakt.tv</string>
+    <string id="1023">Update missing movie playcounts on XBMC</string>
+
+    <!-- Episode Settings -->
+    <string id="1030">Episodes</string>
+    <string id="1031">Add missing episodes to trakt.tv</string>
+    <string id="1032">Update missing episode playcounts on trakt.tv</string>
+    <string id="1033">Update missing episode playcounts on XBMC</string>
+
+    <!-- Service Settings -->
+    <string id="1040">Service</string>
+    <string id="1041">Sync after library scan</string>
+
+    <!-- Progress Dialog & Notifications -->
+    <string id="1100">Syncing Movies</string>
+    <string id="1101">Getting movies from XBMC</string>
+    <string id="1102">Getting movies from trakt.tv</string>
+
+    <string id="1103">Syncing Episodes</string>
+    <string id="1104">Getting episodes from XBMC</string>
+    <string id="1105">Getting episodes from trakt.tv</string>
+
+    <string id="1106">Comparing XBMC and trakt.tv collection</string>
+    <string id="1107">Updating trakt.tv playcounts</string>
+    <string id="1108">Updating XBMC playcounts</string>
+    <string id="1109">Sync Complete</string>
+
+    <string id="1110">movie(s) will be added to trakt.tv collection</string>
+    <string id="1111">shows(s) shows are missing episodes on trakt.tv</string>
+    <string id="1112">trakt.tv playcounts are being updated</string>
+    <string id="1113">XBMC playcounts are being updated</string>
+    <string id="1114">episodes missing</string>
+    <string id="1115">playcounts missing</string>
+
+
+</strings>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+
+	<category label="1010"> <!-- Trakt Settings -->
+		<setting id="trakt_username" type="text" label="1011" default="" />
+		<setting id="trakt_password" type="text" label="1012" default="" />
+		<setting id="trakt_apikey" type="text" label="1013" default="" />
+	</category>
+
+	<category label="1020"> <!-- Movie Settings -->
+		<setting id="add_movies_to_trakt" type="bool" label="1021" default="true" />
+		<setting id="trakt_movie_playcount" type="bool" label="1022" default="true" />
+		<setting id="xbmc_movie_playcount" type="bool" label="1023" default="true" />
+	</category>
+
+	<category label="1030"> <!-- Episode Settings -->
+		<setting id="add_episodes_to_trakt" type="bool" label="1031" default="true" />
+		<setting id="trakt_episode_playcount" type="bool" label="1032" default="true" />
+		<setting id="xbmc_episode_playcount" type="bool" label="1033" default="true" />
+	</category>
+
+	<!-- <category label="1040"> <!-- Service Settings --!>
+		<setting id="service_enabled" type="bool" label="1041" default="false" />
+	</category> -->
+
+</settings>
