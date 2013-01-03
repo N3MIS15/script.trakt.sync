@@ -162,7 +162,7 @@ class SyncMovies():
         print 'Getting movies from trakt.tv'
         self.progress.update(10, line1=__getstring__(1102))
         xbmc.sleep(1000)
-        self.trakt_movies = trakt_api('http://api.trakt.tv/user/library/movies/all.json/%s/%s' % (trakt_apikey, trakt_username))
+        self.trakt_movies = trakt_api('http://api.trakt.tv/user/library/movies/all.json/%s/%s/min' % (trakt_apikey, trakt_username))
 
 
     def AddToTrakt(self):
@@ -358,7 +358,7 @@ class SyncEpisodes():
         print 'Getting episode collection from trakt.tv'
         self.progress.update(10, line1=__getstring__(1105), line2=' ', line3=' ')
         xbmc.sleep(1000)
-        self.trakt_shows['collection'] = trakt_api('http://api.trakt.tv/user/library/shows/collection.json/%s/%s' % (trakt_apikey, trakt_username))
+        self.trakt_shows['collection'] = trakt_api('http://api.trakt.tv/user/library/shows/collection.json/%s/%s/min' % (trakt_apikey, trakt_username))
 
 
     def AddToTrakt(self):
@@ -438,7 +438,7 @@ class SyncEpisodes():
         print 'Getting watched episodes from trakt.tv'
         self.progress.update(60, line1=__getstring__(1105), line2=' ', line3=' ')
         xbmc.sleep(1000)
-        self.trakt_shows['watched'] = trakt_api('http://api.trakt.tv/user/library/shows/watched.json/%s/%s' % (trakt_apikey, trakt_username))
+        self.trakt_shows['watched'] = trakt_api('http://api.trakt.tv/user/library/shows/watched.json/%s/%s/min' % (trakt_apikey, trakt_username))
 
 
     def UpdatePlaysTrakt(self):
